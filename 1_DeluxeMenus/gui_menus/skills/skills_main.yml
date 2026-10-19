@@ -1,0 +1,208 @@
+menu_title: '&f七七七七七七七七'
+open_command:
+  - skills
+  - habilidades
+size: 54
+open_requirement:
+  requirements:
+    permission:
+      type: '!has permission'
+      permission: 'none'
+
+items:
+  'player_profile':
+    material: player_head
+    slot: 10
+    update: true
+    skull_owner: '%player_name%'
+    display_name: '&#d4a177&l%player_name%'
+    lore:
+      - '&8▪ &7Mana: &#d4a177%auraskills_mana%'
+      - '&8▪ &7Nivel Total: &#d4a177%auraskills_power%'
+      - '&8▪ &7Rango en Leaderboard: &#d4a177#%auraskills_rank%'
+
+  'stats_icon':
+    material: paper
+    model_data: 76
+    slot: 19
+    display_name: '&#d4a177&lESTADÍSTICAS'
+    lore:
+      - '&7Consulta tus atributos de combate,'
+      - '&7defensa, velocidad y más.'
+      - ''
+      - '&e▶ Click para abrir estadísticas'
+    left_click_commands:
+      - '[openguimenu] skills_stats'
+
+  'leaderboard_icon':
+    material: paper
+    model_data: 77
+    slot: 28
+    display_name: '&#d4a177&lTABLA DE CLASIFICACIÓN'
+    lore:
+      - '&7Mira los mejores jugadores'
+      - '&7en cada una de las habilidades.'
+      - ''
+      - '&e▶ Click para ver top'
+    left_click_commands:
+      - '[openguimenu] skills_leaderboards'
+
+  'guide_icon':
+    material: paper
+    model_data: 78
+    slot: 37
+    display_name: '&#d4a177&lGUÍA DE HABILIDADES'
+    lore:
+      - '&7Aumenta de nivel realizando tareas'
+      - '&7y desbloquea ventajas pasivas únicas.'
+
+  'skill_fighting':
+    material: paper
+    model_data: 79
+    slot: 12
+    display_name: '&#e8ae48&lCombate &8(Nv. %auraskills_fighting_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_fighting_progress% / %auraskills_fighting_xp_needed% XP'
+      - '&7Aumenta el daño infligido y desbloquea'
+      - '&7habilidades como Sangrado y Primer Golpe.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_fighting'
+
+  'skill_farming':
+    material: paper
+    model_data: 80
+    slot: 13
+    display_name: '&#e8ae48&lAgricultura &8(Nv. %auraskills_farming_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_farming_progress% / %auraskills_farming_xp_needed% XP'
+      - '&7Cosecha cultivos para obtener más cosechas'
+      - '&7y regeneración de salud pasiva.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_farming'
+
+  'skill_archery':
+    material: paper
+    model_data: 81
+    slot: 14
+    display_name: '&#e8ae48&lArquería &8(Nv. %auraskills_archery_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_archery_progress% / %auraskills_archery_xp_needed% XP'
+      - '&7Dispara con arco o ballesta para infligir'
+      - '&7daño crítico a distancia.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_archery'
+
+  'skill_mining':
+    material: paper
+    model_data: 82
+    slot: 15
+    display_name: '&#e8ae48&lMinería &8(Nv. %auraskills_mining_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_mining_progress% / %auraskills_mining_xp_needed% XP'
+      - '&7Pica minerales para obtener doble drop'
+      - '&7y aceleración minera.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_mining'
+
+  'skill_fishing':
+    material: paper
+    model_data: 83
+    slot: 16
+    display_name: '&#e8ae48&lPesca &8(Nv. %auraskills_fishing_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_fishing_progress% / %auraskills_fishing_xp_needed% XP'
+      - '&7Pesca para obtener tesoros raros'
+      - '&7y multiplicadores de experiencia.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_fishing'
+
+  'skill_foraging':
+    material: paper
+    model_data: 84
+    slot: 21
+    display_name: '&#e8ae48&lTala &8(Nv. %auraskills_foraging_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_foraging_progress% / %auraskills_foraging_xp_needed% XP'
+      - '&7Corta madera para talar árboles enteros'
+      - '&7y conseguir madera extra.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_foraging'
+
+  'skill_defense':
+    material: paper
+    model_data: 85
+    slot: 22
+    display_name: '&#e8ae48&lDefensa &8(Nv. %auraskills_defense_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_defense_progress% / %auraskills_defense_xp_needed% XP'
+      - '&7Recibe daño para reducir el daño entrante'
+      - '&7y ganar resistencia natural.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_defense'
+
+  'skill_excavation':
+    material: paper
+    model_data: 86
+    slot: 23
+    display_name: '&#e8ae48&lExcavación &8(Nv. %auraskills_excavation_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_excavation_progress% / %auraskills_excavation_xp_needed% XP'
+      - '&7Excava tierra y arena para encontrar tesoros enterrados.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_excavation'
+
+  'skill_enchanting':
+    material: paper
+    model_data: 87
+    slot: 24
+    display_name: '&#e8ae48&lEncantamiento &8(Nv. %auraskills_enchanting_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_enchanting_progress% / %auraskills_enchanting_xp_needed% XP'
+      - '&7Encanta objetos para potenciar tu sabiduría y mana.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_enchanting'
+
+  'skill_alchemy':
+    material: paper
+    model_data: 88
+    slot: 25
+    display_name: '&#e8ae48&lAlquimia &8(Nv. %auraskills_alchemy_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_alchemy_progress% / %auraskills_alchemy_xp_needed% XP'
+      - '&7Prepara pociones para aumentar su duración y potencia.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_alchemy'
+
+  'skill_agility':
+    material: paper
+    model_data: 89
+    slot: 30
+    display_name: '&#e8ae48&lAgilidad &8(Nv. %auraskills_agility_level%)'
+    lore:
+      - '&7Progreso: &e%auraskills_agility_progress% / %auraskills_agility_xp_needed% XP'
+      - '&7Corre y salta para reducir el daño por caída'
+      - '&7y ganar velocidad de movimiento.'
+      - ''
+      - '&e▶ Click para ver detalles'
+    left_click_commands:
+      - '[openguimenu] skills_level_agility'

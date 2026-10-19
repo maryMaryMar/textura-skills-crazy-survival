@@ -1,0 +1,11 @@
+# ==============================================================
+# BLOQUE DE REGISTRO PARA config.yml DE DELUXEMENUS
+# Copia y pega estas lineas debajo de la seccion 'gui_menus:'
+# ==============================================================
+gui_menus:
+  skills_main:
+    file: skills/skills_main.yml
+  skills_stats:
+    file: skills/stats.yml
+  skills_leaderboards:
+    file: skills/leaderboards.yml

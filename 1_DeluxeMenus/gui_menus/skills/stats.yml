@@ -1,0 +1,91 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+items:
+  'back':
+    material: paper
+    model_data: 90
+    slot: 49
+    display_name: '&c&lVolver'
+    left_click_commands:
+      - '[openguimenu] skills_main'
+
+  'stat_strength':
+    material: paper
+    model_data: 91
+    slot: 20
+    display_name: '&c&lFuerza'
+    lore:
+      - '&7Valor actual: &c%auraskills_strength%'
+      - '&7Aumenta el daño de ataque cuerpo a cuerpo.'
+
+  'stat_health':
+    material: paper
+    model_data: 92
+    slot: 21
+    display_name: '&a&lSalud'
+    lore:
+      - '&7Valor actual: &a%auraskills_health%'
+      - '&7Aumenta la vida máxima del jugador.'
+
+  'stat_regeneration':
+    material: paper
+    model_data: 93
+    slot: 22
+    display_name: '&d&lRegeneración'
+    lore:
+      - '&7Valor actual: &d%auraskills_regeneration%'
+      - '&7Aumenta la velocidad de recuperación de vida.'
+
+  'stat_luck':
+    material: paper
+    model_data: 94
+    slot: 23
+    display_name: '&e&lSuerte'
+    lore:
+      - '&7Valor actual: &e%auraskills_luck%'
+      - '&7Aumenta la probabilidad de drops raros.'
+
+  'stat_wisdom':
+    material: paper
+    model_data: 95
+    slot: 24
+    display_name: '&b&lSabiduría'
+    lore:
+      - '&7Valor actual: &b%auraskills_wisdom%'
+      - '&7Aumenta el mana máximo y regeneración de mana.'
+
+  'stat_toughness':
+    material: paper
+    model_data: 96
+    slot: 29
+    display_name: '&9&lDureza'
+    lore:
+      - '&7Valor actual: &9%auraskills_toughness%'
+      - '&7Reduce el daño recibido por ataques fuertes.'
+
+  'stat_crit_chance':
+    material: paper
+    model_data: 97
+    slot: 30
+    display_name: '&6&lProbabilidad Crítica'
+    lore:
+      - '&7Valor actual: &6%auraskills_crit_chance%%'
+      - '&7Probabilidad de asestar un golpe crítico.'
+
+  'stat_crit_damage':
+    material: paper
+    model_data: 98
+    slot: 31
+    display_name: '&4&lDaño Crítico'
+    lore:
+      - '&7Valor actual: &4+%auraskills_crit_damage%%'
+      - '&7Multiplicador de daño al asestar un golpe crítico.'
+
+  'stat_speed':
+    material: paper
+    model_data: 99
+    slot: 32
+    display_name: '&f&lVelocidad'
+    lore:
+      - '&7Valor actual: &f%auraskills_speed%'
+      - '&7Velocidad de movimiento al correr o caminar.'

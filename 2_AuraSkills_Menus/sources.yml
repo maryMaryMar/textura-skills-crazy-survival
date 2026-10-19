@@ -1,0 +1,79 @@
+title: '&f七七七七七七七七'
+size: 6
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+  back:
+    pos: 1,0
+    material: paper
+    custom_model_data: 100
+    display_name: <#d4a177>Back
+  next_page:
+    pos: 4,7
+    material: paper
+    custom_model_data: 111
+    display_name: <#d4a177>Next Page
+  previous_page:
+    pos: 4,1
+    material: paper
+    custom_model_data: 112
+    display_name: <#d4a177>Previous Page
+  sorter:
+    pos: 2,0
+    material: paper
+    custom_model_data: 101
+    display_name: <#d4a177>Sort
+    lore:
+    - '{sort_types[\n]}'
+templates:
+  source:
+    material: gray_dye
+    display_name: <white>{source_name}
+    lore:
+    - text: '{{multiplied_desc}}'
+      wrap: true
+      style: <#8b8b8b>
+    - ' '
+    - '<dark_gray>▪ <gray>xᴘ: {source_xp}'
+    - component: multiplied_xp
+components:
+  multiplied_xp:
+    context: XpSource
+    lore:
+    - '<dark_gray>▪ <gray>ᴍᴜʟᴛɪᴘʟɪᴇᴅ xᴘ: {source_xp}'
+formats:
+  sort_type_entry: <gray>{selected}{type_name}
+  selected: '<#d4a177>▸ '
+  source_xp: <#88d34c>{xp}
+  source_xp_rate: <#88d34c>{xp}/{unit}
+options:
+  source_start: 1,1
+  source_end: 4,8
+  items_per_page: 28
+  use_track: true
+  track:
+  - 10
+  - 11
+  - 12
+  - 14
+  - 15
+  - 16
+  - 19
+  - 20
+  - 21
+  - 23
+  - 24
+  - 25
+  - 28
+  - 29
+  - 30
+  - 32
+  - 33
+  - 34
+  - 38
+  - 39
+  - 41
+  - 42
+  xp_format: '#.##'
+  income_format: '0.00'

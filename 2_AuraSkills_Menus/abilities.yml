@@ -1,0 +1,130 @@
+title: '&f七七七七七七七七'
+size: 6
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+  skull:
+    pos: 2,2
+    material: player_head
+    custom_model_data: 4
+    skull_meta:
+      placeholder_uuid: '{player}'
+    display_name: '<bold><#d4a177>%player_name%'
+    lore:
+    - '<gray>ʟᴇᴠᴇʟ ᴜᴘ ʏᴏᴜʀ ꜱᴋɪʟʟꜱ'
+    - '<gray>ᴛᴏ ᴜɴʟᴏᴄᴋ ᴘᴀꜱꜱɪᴠᴇ'
+    - '<gray>ᴘᴇʀᴋꜱ ᴀɴᴅ ᴜᴘɢʀᴀᴅᴇꜱ'
+  back:
+    pos: 1,0
+    material: paper
+    custom_model_data: 100
+    display_name: '<#d4a177>Back'
+templates:
+  locked_ability:
+    options:
+      slots:
+        - 1,5
+        - 1,6
+        - 1,7
+        - 2,5
+        - 2,6
+        - 2,7
+        - 3,5
+        - 3,6
+        - 3,7
+    material: paper
+    custom_model_data: 114
+    display_name: '<#fee1b8>{name}'
+    lore:
+      - text: '{desc}'
+        wrap: true
+        styles:
+          0: '<gray>'
+      - ' '
+      - text: '<dark_gray>▪ <gray>ɴᴇxᴛ ᴜᴘɢʀᴀᴅᴇ ᴀᴛ: {{unlocked_at}}'
+        styles:
+          1: '<#fee1b8>'
+          2: '<#fee1b8>'
+      - ' '
+      - '<#e5534d>ʟᴏᴄᴋᴇᴅ'
+  locked_mana_ability:
+    pos: 2,7
+    material: paper
+    custom_model_data: 114
+    display_name: '<#fee1b8>{name}'
+    lore:
+      - text: '{desc}'
+        wrap: true
+        styles:
+          0: '<gray>'
+      - ' '
+      - text: '<dark_gray>▪ <gray>ɴᴇxᴛ ᴜᴘɢʀᴀᴅᴇ ᴀᴛ: {{unlocked_at}}'
+        styles:
+          1: '<#fee1b8>'
+          2: '<#fee1b8>'
+      - ' '
+      - '<#e5534d>ʟᴏᴄᴋᴇᴅ'
+  unlocked_ability:
+    options:
+      slots:
+        - 1,5
+        - 1,6
+        - 1,7
+        - 2,5
+        - 2,6
+        - 2,7
+        - 3,5
+        - 3,6
+        - 3,7
+    material: paper
+    custom_model_data: 113
+    display_name: '<#aaede6>{name}'
+    lore:
+      - component: your_level
+      - component: your_level_maxed
+      - ' '
+      - component: unlocked_desc
+      - component: unlocked_desc_maxed
+      - ' '
+      - '<#88d34c>ᴜɴʟᴏᴄᴋᴇᴅ'
+  unlocked_mana_ability:
+    pos: 2,7
+    material: paper
+    custom_model_data: 115
+    display_name: '<#e598e5>{name}'
+    lore:
+      - component: your_level
+      - component: your_level_maxed
+      - ' '
+      - component: unlocked_desc
+      - component: unlocked_desc_maxed
+      - ' '
+      - '<#88d34c>ᴜɴʟᴏᴄᴋᴇᴅ'
+components:
+  your_level:
+    context: AbstractAbility
+    lore:
+      - '<dark_gray>▪ <gray>ʏᴏᴜʀ ʟᴇᴠᴇʟ: <#aaede6>{level}'
+  your_level_maxed:
+    context: AbstractAbility
+    lore:
+      - '<dark_gray>▪ <gray>ʏᴏᴜʀ ʟᴇᴠᴇʟ: <#aaede6>{level} (MAXED)'
+  unlocked_desc:
+    context: AbstractAbility
+    lore:
+      - text: '<dark_gray>▪ <gray>ɴᴇxᴛ ᴜᴘɢʀᴀᴅᴇ ᴀᴛ: <#aaede6>{{next_upgrade_at}}'
+      - text: '{desc}'
+        wrap: true
+        wrap_indent: '  '
+        styles:
+          0: '<#8b8b8b>'
+  unlocked_desc_maxed:
+    context: AbstractAbility
+    lore:
+      - text: '{desc}'
+        wrap: true
+        styles:
+          0: '<gray>'
+formats:
+  desc_upgrade_value: '<gray>{current}<dark_gray>→{next}<gray>'

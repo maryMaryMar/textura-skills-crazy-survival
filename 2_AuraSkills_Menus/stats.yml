@@ -1,0 +1,133 @@
+title: '&f七七七七七七七七'
+size: 6
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+  skull:
+    pos: 2,2
+    material: player_head
+    custom_model_data: 4
+    display_name: '<bold><#d4a177>{player}'
+    lore:
+      - '{entries[\n]}'
+  back:
+    material: paper
+    custom_model_data: 90
+    pos: 1,0
+    display_name: '<#d4a177>Back'
+  stats:
+    pos: 3,1
+    material: paper
+    custom_model_data: 76
+    display_name: '<bold><#d4a177>ꜱᴛᴀᴛꜱ'
+    lore:
+    - '<gray>ᴇᴀʀɴ ꜱᴛᴀᴛꜱ ʙᴜꜰꜰ ʙʏ'
+    - '<gray>ʟᴇᴠᴇʟɪɴɢ ᴜᴘ ꜱᴋɪʟʟꜱ'
+  leaderboards:
+    pos: 3,2
+    material: paper
+    custom_model_data: 77
+    display_name: '<bold><#d4a177>ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ'
+    lore:
+    - '<gray>ʟᴇᴠᴇʟ ᴜᴘ ʏᴏᴜʀ ꜱᴋɪʟʟꜱ ᴛᴏ'
+    - '<gray>ꜱʜᴏᴡ ᴜᴘ ɪɴ ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ'
+    on_click:
+      - type: command
+        executor: console
+        command: dm open skills_leaderboards {player}
+  guide:
+    pos: 3,3
+    material: paper
+    custom_model_data: 78
+    display_name: '<bold><#d4a177>ɢᴜɪᴅᴇ'
+    lore:
+    - '<gray>ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ ꜱᴋɪʟʟꜱ ʙʏ ᴅᴏɪɴɢ'
+    - '<gray>ᴠᴀʀɪᴏᴜꜱ ᴛᴀꜱᴋꜱ ᴛᴏ ʙᴇᴄᴏᴍᴇ ᴘᴏᴡᴇʀꜰᴜʟ'
+    - '<gray>ᴡɪᴛʜ ᴜɴʟᴏᴄᴋᴇᴅ ꜱᴛᴀᴛ ʙᴏᴏꜱᴛꜱ,'
+    - '<gray>ᴀʙɪʟɪᴛɪᴇꜱ ᴀɴᴅ ᴍᴏʀᴇ!'
+templates:
+  stat:
+    contexts:
+      strength:
+        group: first_row
+        order: 1
+        material: paper
+        custom_model_data: 91
+      health:
+        group: first_row
+        order: 2
+        material: paper
+        custom_model_data: 92
+      regeneration:
+        group: first_row
+        order: 3
+        material: paper
+        custom_model_data: 93
+      luck:
+        group: second_row
+        order: 1
+        material: paper
+        custom_model_data: 94
+      wisdom:
+        group: second_row
+        order: 2
+        material: paper
+        custom_model_data: 95
+      toughness:
+        group: second_row
+        order: 3
+        material: paper
+        custom_model_data: 96
+      crit_chance:
+        group: third_row
+        order: 1
+        material: paper
+        custom_model_data: 97
+      crit_damage:
+        group: third_row
+        order: 2
+        material: paper
+        custom_model_data: 98
+      speed:
+        group: third_row
+        order: 3
+        material: paper
+        custom_model_data: 99
+    groups:
+      first_row:
+        start: 1,5
+        end: 1,8
+        align: center
+      second_row:
+        start: 2,5
+        end: 2,8
+        align: center
+      third_row:
+        start: 3,5
+        end: 3,8
+        align: center
+    display_name: '<bold>{color}{stat}'
+    lore:
+      - text: '{stat_desc}'
+        wrap: true
+        style: '<gray>'
+      - ' '
+      - '<dark_gray>▪ <gray>ʏᴏᴜʀ ʟᴇᴠᴇʟ: {color}{level}'
+      - ' '
+      - component: leveled_by
+      - ' '
+      - '<dark_gray>▪ <gray>ꜱᴋɪʟʟ ʙᴜꜰꜰ:'
+      - '  {traits[\n  ]}'
+components:
+  leveled_by:
+    context: Stat
+    lore:
+      - '<dark_gray>▪ <gray>ꜱᴋɪʟʟꜱ:'
+      - '  <white>{skills[\n  <white>]}'
+formats:
+  player_stat_entry: '<dark_gray>▪ <white>{stat}: {color}{level}'
+  trait_entry: '<white>{trait}: {color}{level}'
+  luck_trait_desc_chance: ' <dark_gray>({chance})'
+  luck_trait_desc_added: ' <dark_gray>({added})'
+  luck_trait_desc_both: ' <dark_gray>({added}, {chance})'

@@ -1,0 +1,210 @@
+title: '&f七七七七七七七七'
+size: 6
+fill:
+  enabled: false
+  material: black_stained_glass_pane
+items:
+  skull:
+    pos: 2,2
+    material: player_head
+    custom_model_data: 4
+    skull_meta:
+      placeholder_uuid: '{player}'
+    display_name: <bold><#d4a177>%player_name%
+    lore:
+    - '<dark_gray>▪ <white>ʏᴏᴜʀ ᴍᴀɴᴀ: <#d4a177>%auraskills_mana%'
+    - '<dark_gray>▪ <white>ᴄᴏᴍʙɪɴᴇᴅ ꜱᴋɪʟʟ ʟᴇᴠᴇʟ: <#d4a177>%auraskills_power%'
+    - '<dark_gray>▪ <white>ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ ʀᴀɴᴋ: <#d4a177>%auraskills_rank%'
+  stats:
+    pos: 3,1
+    material: paper
+    custom_model_data: 76
+    display_name: <bold><#d4a177>ꜱᴛᴀᴛꜱ
+    lore:
+    - <gray>ᴇᴀʀɴ ꜱᴛᴀᴛꜱ ʙᴜꜰꜰ ʙʏ
+    - <gray>ʟᴇᴠᴇʟɪɴɢ ᴜᴘ ꜱᴋɪʟʟꜱ
+  leaderboards:
+    pos: 3,2
+    material: paper
+    custom_model_data: 77
+    display_name: <bold><#d4a177>ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ
+    lore:
+    - <gray>ʟᴇᴠᴇʟ ᴜᴘ ʏᴏᴜʀ ꜱᴋɪʟʟꜱ ᴛᴏ
+    - <gray>ꜱʜᴏᴡ ᴜᴘ ɪɴ ʟᴇᴀᴅᴇʀʙᴏᴀʀᴅ
+    on_click:
+    - type: command
+      executor: console
+      command: dm open skills_leaderboards {player}
+  guide:
+    pos: 3,3
+    material: paper
+    custom_model_data: 78
+    display_name: <bold><#d4a177>ɢᴜɪᴅᴇ
+    lore:
+    - <gray>ᴜᴘɢʀᴀᴅᴇ ʏᴏᴜʀ ꜱᴋɪʟʟꜱ ʙʏ ᴅᴏɪɴɢ
+    - <gray>ᴠᴀʀɪᴏᴜꜱ ᴛᴀꜱᴋꜱ ᴛᴏ ʙᴇᴄᴏᴍᴇ ᴘᴏᴡᴇʀꜰᴜʟ
+    - <gray>ᴡɪᴛʜ ᴜɴʟᴏᴄᴋᴇᴅ ꜱᴛᴀᴛ ʙᴏᴏꜱᴛꜱ,
+    - <gray>ᴀʙɪʟɪᴛɪᴇꜱ ᴀɴᴅ ᴍᴏʀᴇ!
+templates:
+  skill:
+    contexts:
+      fighting:
+        group: first_row
+        order: 1
+        material: paper
+        custom_model_data: 79
+      farming:
+        group: first_row
+        order: 2
+        material: paper
+        custom_model_data: 80
+      archery:
+        group: first_row
+        order: 3
+        material: paper
+        custom_model_data: 81
+      mining:
+        group: second_row
+        order: 1
+        material: paper
+        custom_model_data: 82
+      fishing:
+        group: second_row
+        order: 2
+        material: paper
+        custom_model_data: 83
+      foraging:
+        group: second_row
+        order: 3
+        material: paper
+        custom_model_data: 84
+      defense:
+        group: third_row
+        order: 1
+        material: paper
+        custom_model_data: 85
+      excavation:
+        group: third_row
+        order: 2
+        material: paper
+        custom_model_data: 86
+      enchanting:
+        group: third_row
+        order: 3
+        material: paper
+        custom_model_data: 87
+      alchemy:
+        group: forth_row
+        order: 1
+        material: paper
+        custom_model_data: 88
+      agility:
+        group: forth_row
+        order: 2
+        material: paper
+        custom_model_data: 89
+      endurance:
+        group: first_row
+        order: 4
+        material: golden_apple
+      sorcery:
+        group: third_row
+        order: 4
+        material: blaze_rod
+      healing:
+        group: third_row
+        order: 5
+        material: splash_potion
+        potion_data:
+          type: instant_heal
+        flags:
+        - hide_potion_effects
+      forging:
+        group: third_row
+        order: 6
+        material: anvil
+    groups:
+      first_row:
+        start: 1,5
+        end: 1,8
+        align: center
+      second_row:
+        start: 2,5
+        end: 2,8
+        align: center
+      third_row:
+        start: 3,5
+        end: 3,8
+        align: center
+      forth_row:
+        start: 4,5
+        end: 4,8
+        align: left
+    display_name: <aqua><bold>{skill}</bold> <dark_aqua>{level}
+    lore:
+    - text: '{desc}'
+      wrap: true
+      style: <gray>
+    - component: level
+    - component: stats_leveled
+    - component: ability_levels
+    - component: mana_ability_info
+    - ' '
+    - component: progress
+    - component: max_level
+    - component: skill_job_active
+    - ' '
+    - <white> <yellow>{{skill_click}}
+components:
+  stats_leveled:
+    context: Skill
+    lore:
+    - ' '
+    - '<dark_gray>▪ <gray>ꜱᴛᴀᴛꜱ ʟᴇᴠᴇʟᴇᴅ:'
+    - '  {entries[<gray>\n  ]}'
+  ability_levels:
+    context: Skill
+    lore:
+    - ' '
+    - '<dark_gray>▪ <gray>ᴀʙɪʟɪᴛʏ ʟᴇᴠᴇʟꜱ: {entries[]}'
+  mana_ability_info:
+    context: Skill
+    lore:
+    - ' '
+    - '<dark_gray>▪ <gray>ᴍᴀɴᴀ ᴀʙɪʟɪᴛʏ:'
+    - '  <#88d34c>▪ <white>{name} <gray>{level}'
+  progress:
+    context: Skill
+    lore:
+    - '<dark_gray>▪ <gray>{{progress_to_level}}:'
+    - '  {bar}'
+    - '  <#76b742>{current_xp}<dark_gray>/{level_xp} {xp_unit}'
+  max_level:
+    context: Skill
+    lore:
+    - <gold>{{max_level}}
+  skill_job_active:
+    context: Skill
+    lore:
+    - ' '
+    - <dark_gray>▶ <green>{{active_job}}
+formats:
+  stat_leveled_entry: <#88d34c>▪ <white>{stat}
+  unlocked_ability_entry: \n  <#88d34c>▪ <white>{name} <gray>{level}
+    <dark_gray>({info})
+  locked_ability_entry: \n  <#e83640>▪ <dark_gray><st>{name}</st>
+  duration_entry: '<gray>{{duration}}: <green>{duration}s '
+  mana_cost_entry: '<gray>{{mana_cost}}: <aqua>{mana_cost} '
+  cooldown_entry: '<gray>{{cooldown}}: <yellow>{cooldown}s '
+  damage_entry: '<dark_gray>{value} {{damage}} '
+  damage_per_mana_entry: '<gray>{{damage}}: <red>+{value}% / Mana '
+  max_mana_cost_entry: '<gray>{{max_mana_cost}}: <aqua>{mana_cost} '
+  attack_speed_entry: <dark_gray>+{value}% {{attack_speed}}
+  bar_completed: <white>
+  bar_current: <white>
+  bar_remaining: <white>
+options:
+  bar_length: 10
+  current_xp_format: '#.##'
+  percent_format: '#.##'
+file_version: 1

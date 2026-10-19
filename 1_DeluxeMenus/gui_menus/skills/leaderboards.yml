@@ -1,0 +1,2705 @@
+menu_title: '&f七七七七七七七七'
+size: 54
+update_interval: 1
+
+items:
+  'rank_1_all':
+    material: 'head-%ajlb_lb_auraskills_rank_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_1_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_fighting_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_1_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_farming_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_1_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_archery_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_1_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_mining_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_1_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_fishing_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_1_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_foraging_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_1_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_defense_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_1_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_excavation_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_1_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_enchanting_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_1_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_alchemy_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_1_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_1_alltime_name%'
+    model_data: 5
+    amount: 1
+    slot: 20
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#e8ae48Rank #1'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#e8ae48%ajlb_lb_auraskills_rank_agility_1_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank2
+  'rank_2_all':
+    material: 'head-%ajlb_lb_auraskills_rank_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_2_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_fighting_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_2_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_farming_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_2_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_archery_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_2_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_mining_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_2_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_fishing_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_2_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_foraging_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_2_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_defense_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_2_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_excavation_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_2_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_enchanting_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_2_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_alchemy_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_2_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_2_alltime_name%'
+    model_data: 6
+    amount: 1
+    slot: 28
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#b1a8b6Rank #2'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#b1a8b6%ajlb_lb_auraskills_rank_agility_2_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank3
+  'rank_3_all':
+    material: 'head-%ajlb_lb_auraskills_rank_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_3_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_fighting_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_3_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_farming_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_3_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_archery_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_3_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_mining_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_3_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_fishing_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_3_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_foraging_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_3_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_defense_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_3_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_excavation_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_3_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_enchanting_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_3_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_alchemy_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_3_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_3_alltime_name%'
+    model_data: 7
+    amount: 1
+    slot: 30
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#dfa18bRank #3'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#dfa18b%ajlb_lb_auraskills_rank_agility_3_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank4
+  'rank_4_all':
+    material: 'head-%ajlb_lb_auraskills_rank_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_4_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fighting_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_4_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_farming_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_4_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_archery_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_4_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_mining_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_4_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fishing_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_4_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_foraging_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_4_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_defense_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_4_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_excavation_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_4_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_enchanting_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_4_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_alchemy_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_4_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_4_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 15
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #4'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_agility_4_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank5
+  'rank_5_all':
+    material: 'head-%ajlb_lb_auraskills_rank_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_5_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fighting_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_5_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_farming_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_5_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_archery_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_5_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_mining_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_5_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fishing_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_5_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_foraging_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_5_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_defense_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_5_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_excavation_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_5_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_enchanting_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_5_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_alchemy_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_5_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_5_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 23
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #5'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_agility_5_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank6
+  'rank_6_all':
+    material: 'head-%ajlb_lb_auraskills_rank_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_6_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fighting_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_6_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_farming_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_6_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_archery_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_6_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_mining_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_6_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fishing_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_6_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_foraging_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_6_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_defense_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_6_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_excavation_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_6_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_enchanting_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_6_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_alchemy_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_6_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_6_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 24
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #6'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_agility_6_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank7
+  'rank_7_all':
+    material: 'head-%ajlb_lb_auraskills_rank_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_7_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fighting_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_7_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_farming_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_7_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_archery_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_7_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_mining_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_7_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fishing_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_7_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_foraging_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_7_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_defense_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_7_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_excavation_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_7_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_enchanting_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_7_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_alchemy_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_7_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_7_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 25
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #7'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_agility_7_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank8
+  'rank_8_all':
+    material: 'head-%ajlb_lb_auraskills_rank_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_8_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fighting_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_8_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_farming_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_8_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_archery_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_8_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_mining_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_8_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fishing_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_8_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_foraging_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_8_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_defense_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_8_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_excavation_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_8_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_enchanting_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_8_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_alchemy_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_8_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_8_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 32
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #8'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_agility_8_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank9
+  'rank_9_all':
+    material: 'head-%ajlb_lb_auraskills_rank_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_9_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fighting_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_9_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_farming_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_9_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_archery_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_9_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_mining_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_9_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fishing_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_9_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_foraging_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_9_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_defense_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_9_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_excavation_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_9_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_enchanting_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_9_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_alchemy_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_9_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_9_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 33
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #9'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_agility_9_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+#Rank10
+  'rank_10_all':
+    material: 'head-%ajlb_lb_auraskills_rank_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+  'rank_10_fighting':
+    material: 'head-%ajlb_lb_auraskills_rank_fighting_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fighting_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+  'rank_10_farming':
+    material: 'head-%ajlb_lb_auraskills_rank_farming_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_farming_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+  'rank_10_archery':
+    material: 'head-%ajlb_lb_auraskills_rank_archery_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_archery_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+  'rank_10_mining':
+    material: 'head-%ajlb_lb_auraskills_rank_mining_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_mining_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+  'rank_10_fishing':
+    material: 'head-%ajlb_lb_auraskills_rank_fishing_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_fishing_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+  'rank_10_foraging':
+    material: 'head-%ajlb_lb_auraskills_rank_foraging_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_foraging_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+  'rank_10_defense':
+    material: 'head-%ajlb_lb_auraskills_rank_defense_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_defense_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+  'rank_10_excavation':
+    material: 'head-%ajlb_lb_auraskills_rank_excavation_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_excavation_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+  'rank_10_enchanting':
+    material: 'head-%ajlb_lb_auraskills_rank_enchanting_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_enchanting_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+  'rank_10_alchemy':
+    material: 'head-%ajlb_lb_auraskills_rank_alchemy_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_alchemy_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+  'rank_10_agility':
+    material: 'head-%ajlb_lb_auraskills_rank_agility_10_alltime_name%'
+    model_data: 2
+    amount: 1
+    slot: 34
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#cf9b74Rank #10'
+    lore:
+      - '&8▪ &fɴᴀᴍᴇ: &#cf9b74%ajlb_lb_auraskills_rank_agility_10_alltime_name%'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+
+
+  'back':
+    material: PAPER
+    model_data: 100
+    amount: 1
+    slot: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Back'
+    click_commands:
+      - "[player] skills"
+
+  'sort_1':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 1
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '&#cf9b74▸ ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.all
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_2':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 2
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '&#cf9b74▸ ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fighting
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_3':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 3
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '&#cf9b74▸ ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.farming
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_4':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 4
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '&#cf9b74▸ ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.archery
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_5':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 5
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '&#cf9b74▸ ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.mining
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_6':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 6
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '&#cf9b74▸ ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.fishing
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_7':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 7
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '&#cf9b74▸ ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.foraging
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_8':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 8
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '&#cf9b74▸ ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.defense
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_9':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 9
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '&#cf9b74▸ ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.excavation
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_10':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 10
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '&#cf9b74▸ ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.enchanting
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
+  'sort_11':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 11
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '&#cf9b74▸ ᴀʟᴄʜᴇᴍʏ'
+      - '  &7ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.alchemy
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility true"
+      - "[refresh]"
+  'sort_12':
+    material: PAPER
+    model_data: 101
+    amount: 1
+    slot: 18
+    priority: 12
+    item_flags:
+      - HIDE_ATTRIBUTES
+      - HIDE_ENCHANTS 
+    update: true
+    display_name: '&#d4a177Sort'
+    lore:
+      - '  &7ᴀʟʟ ꜱᴋɪʟʟꜱ'
+      - '  &7ꜰɪɢʜᴛɪɴɢ'
+      - '  &7ꜰᴀʀᴍɪɴɢ'
+      - '  &7ᴀʀᴄʜᴇʀʏ'
+      - '  &7ᴍɪɴɪɴɢ'
+      - '  &7ꜰɪꜱʜɪɴɢ'
+      - '  &7ꜰᴏʀᴀɢɪɴɢ'
+      - '  &7ᴅᴇꜰᴇɴꜱᴇ'
+      - '  &7ᴇxᴄᴀᴠᴀᴛɪᴏɴ'
+      - '  &7ᴇɴᴄʜᴀɴᴛɪɴɢ'
+      - '  &7ᴀʟᴄʜᴇᴍʏ'
+      - '&#cf9b74▸ ᴀɢɪʟɪᴛʏ'
+    view_requirement:
+      requirements:
+        permission:
+          type: "has permission"
+          permission: leaderboards.skills.agility
+    click_commands:
+      - "[console] lp user %player_name% permission set leaderboards.skills.all true"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fighting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.farming false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.archery false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.mining false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.fishing false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.foraging false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.defense false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.excavation false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.enchanting false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.alchemy false"
+      - "[console] lp user %player_name% permission set leaderboards.skills.agility false"
+      - "[refresh]"
